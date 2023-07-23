@@ -1,0 +1,11 @@
+@import '../../styles/variables';
+
+.experience {
+  padding-bottom: 8rem;
+  line-height: 1.4;
+
+  & h1 {
+    font-size: 4rem;
+    margin-bottom: 3rem;
+  }
+}

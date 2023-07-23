@@ -1,5 +1,32 @@
 @import '../../styles/variables';
 
 .header {
-  background-color: $color-black;
+  padding: 2rem 4rem;
+  font-size: 1.4rem;
+  position: sticky;
+  box-shadow: 0 0 1rem rgba($color-black, 0.4);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  max-width: 130rem;
+  margin: 0 auto;
+
+  & h1 {
+    flex: 3;
+  }
+}
+
+.menu {
+  display: flex;
+  flex: 1 1 20%;
+  text-align: center;
+  font-size: 1.5rem;
+
+  & li {
+    flex: 1;
+  }
 }

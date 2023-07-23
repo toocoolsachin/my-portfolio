@@ -1,0 +1,30 @@
+@import '../../styles/variables';
+
+.experience {
+  &:not(:last-child) {
+    margin-bottom: 4rem;
+  }
+
+  font-size: 1.5rem;
+  line-height: 1.4;
+
+  & h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.company {
+  display: flex;
+  align-items: center;
+}
+
+.companyname {
+  font-size: 1.8rem;
+  color: $color-primary-dark;
+  margin-left: 0.5rem;
+}
+
+.logo {
+  border-radius: 50%;
+}
